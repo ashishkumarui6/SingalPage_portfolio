@@ -1,0 +1,39 @@
+
+.Btn button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+button{
+    height: 50px;
+    width: 180px;
+    background: var(--primaryColor);
+    border-radius: 50px;
+    padding: 15px 0px 15px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+
+button .iconCont{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: var(--textColor);
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.iconCont .icon{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 25px;
+}

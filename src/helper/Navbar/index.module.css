@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 64px;
+    background-color: #050816;
+    color: white;
+}
+
+.logo{
+    display: flex;
+}
+.logo p{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+}
+
+.li{
+    font-size: 18px;
+}

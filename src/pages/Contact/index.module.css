@@ -1,0 +1,30 @@
+.Contact{
+    padding: 4rem 0;
+}
+
+
+.Contact .Content{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    column-gap: 25px;
+}
+
+.Content .left{
+    width: 50%;
+    background: red;
+}
+.Content .right{
+    width: 50%;
+}
+
+.right .contactCont{
+    margin-top: 30px;
+}
+
+.contactCont .ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

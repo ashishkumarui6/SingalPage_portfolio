@@ -1,0 +1,30 @@
+.content{
+    padding: 4rem 0px;
+}
+
+.componet{
+    width: 100%;
+    display: flex;
+    margin: 0 57px;
+    padding: 32px 0;
+}
+
+.componet .left{
+    width: 50%;
+}
+
+
+.left .ul{
+    list-style: none;
+}
+
+.componet .right{
+    width: 50%;
+}
+
+.right ul{
+    list-style: none;
+}
+
+
+

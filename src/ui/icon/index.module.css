@@ -1,0 +1,19 @@
+.about_Icon{
+    width: 50px;
+    height: 50px;
+    background: var(--primaryColor);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+}
+
+
+.about_Icon .Icon{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+}

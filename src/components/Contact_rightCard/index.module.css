@@ -1,0 +1,49 @@
+.Card{
+    width: 100%;
+    background: var(--background-color);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.Card .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.content .icon{
+    width: 9%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--primaryColor);
+    font-size: 27px;
+}
+
+
+
+.Card .matter{
+    width: 90%;
+}
+
+.matter .text{
+    width: 100%;
+}
+
+.text .top{
+    color: var(--textColor);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    /* text-align: center; */
+}
+
+.text .bot{
+    color: var(--textColor);
+    /* text-align: center; */
+}

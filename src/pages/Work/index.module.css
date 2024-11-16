@@ -1,0 +1,19 @@
+.Container{
+    padding: 4rem 0;
+    width: 100%;
+}
+.Container .mainCont{
+    margin-top: 60px;
+}
+
+.mainCont .top{
+    margin-bottom: 15px;
+}
+
+
+.card{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
